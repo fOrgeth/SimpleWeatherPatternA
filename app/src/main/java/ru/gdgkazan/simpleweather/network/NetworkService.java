@@ -74,5 +74,9 @@ public class NetworkService extends IntentService {
             SQLite.get().notifyTableChanged(RequestTable.TABLE);
         }
     }
+
+    private void executeCityListRequest(@NonNull Request request, @NonNull String[] cities) {
+
+    }
 }
 

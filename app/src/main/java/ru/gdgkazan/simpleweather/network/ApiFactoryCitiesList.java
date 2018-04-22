@@ -21,7 +21,7 @@ public final class ApiFactoryCitiesList {
     }
 
     @NonNull
-    public static CitiesListService getWeatherService() {
+    public static CitiesListService getCitiesListService() {
         CitiesListService service = sService;
         if (service == null) {
             synchronized (ApiFactoryCitiesList.class) {
